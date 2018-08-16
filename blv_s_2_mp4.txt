@@ -1,0 +1,3 @@
+cat /dev/null > ff.txt;for i in *.blv; do seq_num="${i%.blv}";if [ "${#seq_num}" -eq 1 ];then mv "$i" "0$seq_num.flv";else mv "$i" "$seq_num.flv";fi;done;for i in *.flv; do echo "file '${i}'" >> "ff.txt";done;ffmpeg -f concat -i ff.txt -c copy ../output.mp4;rm ff.txt;printf "success"
+# blv1 blv2 blv3 ... => ../output.mp4
+# https://github.com/printempw/printempw.github.io/blob/source/source/_posts/use-ffmpeg-to-concat-flv-videos-downloaded-by-bilibili-client.md
