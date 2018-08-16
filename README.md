@@ -8,9 +8,7 @@ bash av_bilibili_videos.sh 26192654/
 # 从手机B站缓存拷贝到PC,在B站缓存的av号文件夹的父目录运行。
 ```
 
-- 用法
-
-![](/home/curie/gitcode/bilibili_mp4_fucker/pics/usage.JPG)
+![](pics/usage.JPG)
 
 ### dependencies:
 
@@ -20,15 +18,15 @@ sudo apt-get install pv
 sudo apt-get install ffmpeg
 ```
 
-##### before:![](/home/curie/gitcode/bilibili_mp4_fucker/pics/before.JPG)
+##### before:![](pics/before.JPG)
 
 ##### after:
 
-![](/home/curie/gitcode/bilibili_mp4_fucker/pics/after.JPG)
+![](pics/after.JPG)
 
 #### success:
 
-![](/home/curie/gitcode/bilibili_mp4_fucker/pics/ok.JPG)
+![](pics/ok.JPG)
 
 说明：
 
@@ -40,7 +38,7 @@ bash之后，将自动创建文件夹，合并blv为mp4并放到该文件夹里�
 
 
 
-另外说一句，jq解析json真是方便:)![](/home/curie/gitcode/bilibili_mp4_fucker/pics/jq.JPG)
+另外说一句，jq解析json真是方便:)![](pics/jq.JPG)
 
 ### references : 
 - 1.https://github.com/CattenLinger/BilibiliDownloadedFileTidy 
