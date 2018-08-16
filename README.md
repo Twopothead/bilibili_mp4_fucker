@@ -2,7 +2,7 @@
 
 ###  usage:
 
-```sh
+```bash
 bash av_bilibili_videos.sh 26192654/
 # bash av_bilibili_videos.sh B站av号(此文件夹从手机缓存导出)26192654/
 # 从手机B站缓存拷贝到PC,在B站缓存的av号文件夹的父目录运行。
@@ -44,6 +44,6 @@ bash之后，将自动创建文件夹，合并blv为mp4并放到该文件夹里�
 - 1.https://github.com/CattenLinger/BilibiliDownloadedFileTidy 
 - 2.https://github.com/printempw/printempw.github.io/blob/source/source/_posts/use-ffmpeg-to-concat-flv-videos-downloaded-by-bilibili-client.md
 - 3.https://github.com/xsthunder/fix-bilibili-download
-	 4.https://stackoverflow.com/questions/255414/why-doesnt-cd-work-in-a-shell-script （#exec bash;#exit;）	
+- 4.https://stackoverflow.com/questions/255414/why-doesnt-cd-work-in-a-shell-script （#exec bash;#exit;）	
 
  
