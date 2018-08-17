@@ -2,14 +2,10 @@
 
 ------------------
 
--更新：
+更新：
 
  新增弹幕danmaku.xml导出功能，danmaku.xml将被命名为与mp4同名的弹幕xml文件。
  将合并后的视频和 同名danmaku.xml 弹幕文件一起拖入「BiliLocal」等本地弹幕播放器后就可以观看了。
-
-
-
-------------------
 
 说明：
 
@@ -108,30 +104,28 @@ sudo apt-get install ffmpeg
 >```
 我的bililocal.desktop内容如下:
 
->[Desktop Entry]
->Categories=Qt;AudioVideo;Player;Video;
->Comment[zh_CN]=BiliBili本地弹幕播放器
->Comment=BiliBili本地弹幕播放器
->Exec=/usr/bin/bililocal %U
->GenericName[zh_CN]=BiliLocal
->GenericName=BiliLocal
->Icon=/home/curie/Mysoft/BiliLocal-OSX-master/BiliLocal.ico
->MimeType=
->Name[zh_CN]=BiliLocal
->Name=BiliLocal
->Path=
->StartupNotify=false
->Terminal=false
->TerminalOptions=
->Type=Application
->X-DBUS-ServiceName=
->X-DBUS-StartupType=
->X-KDE-SubstituteUID=false
->X-KDE-Username=
-
----------------------------------------------
-
-
+```
+[Desktop Entry]
+Categories=Qt;AudioVideo;Player;Video;
+Comment[zh_CN]=BiliBili本地弹幕播放器
+Comment=BiliBili本地弹幕播放器
+Exec=/usr/bin/bililocal %U
+GenericName[zh_CN]=BiliLocal
+GenericName=BiliLocal
+Icon=/home/curie/Mysoft/BiliLocal-OSX-master/BiliLocal.ico
+MimeType=
+Name[zh_CN]=BiliLocal
+Name=BiliLocal
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+```
 
 
 另外说一句，jq解析json真是方便:)![](pics/jq.JPG)
